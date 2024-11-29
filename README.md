@@ -1,3 +1,5 @@
+[![CI](https://github.com/mitgedanken-lab/c-c3c/actions/workflows/main.yml/badge.svg?branch=x-dev&event=workflow_run)](https://github.com/mitgedanken-lab/c-c3c/actions/workflows/main.yml)
+
 # C3 Language
 
 C3 is a programming language that builds on the syntax and semantics of the C language,
