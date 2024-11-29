@@ -2,9 +2,9 @@ name: CI
 
 on:
   push:
-    branches: [ master, dev, ci_testing, experiments ]
+    branches: [ main, x-dev ]
   pull_request:
-    branches: [ master, dev ]
+    branches: [ main, x-dev ]
 
 env:
   LLVM_RELEASE_VERSION_WINDOWS: 18
@@ -12,8 +12,8 @@ env:
   LLVM_RELEASE_VERSION_LINUX: 17
   LLVM_RELEASE_VERSION_UBUNTU20: 17
   LLVM_DEV_VERSION: 20
+  
 jobs:
-
   build-msvc:
     runs-on: windows-latest
     strategy:
